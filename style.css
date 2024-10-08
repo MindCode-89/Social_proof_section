@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%, 0.5);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  color: var(--White);
+  color: black;
+}
+.main_container {
+  margin-top: 5em;
+  margin-left: 2.5em;
+}
+
+.main_section {
+  width: 375px;
+  height: 1650px;
+}
+
+.main_title {
+  color: var(--Very-Dark-Magenta);
+  font-size: 35px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.main_paragraf {
+  color: var(--Dark-Grayish-Magenta);
+  font-size: 19px;
+  margin-top: 2em;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+
+.rated_container {
+  position: relative;
+  margin: 0px 0 0 30px;
+}
+.rated_1, .rated_2, .rated_3 {
+  border-radius: 15px;
+  padding: 1rem;
+  position: relative;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 322px;
+  line-height: 1.2em;
+  height: 78px;
+  color: var(--Dark-Grayish-Magenta);
+  background-color: var(--Light-Grayish-Magenta)
+}
+
+.rated_1, .rated_2, .rated_3 span{
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+}
+
+.avatar_01{
+    border-radius: 15px;
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+    width: 335px;
+    height: 275px;
+    background-color: var(--Very-Dark-Magenta);
+}
+
+.Coltom{border-radius: 90px;
+width: 50px;
+height: 50px;
+margin-top: 2.5em;
+margin-left: 2em;
+
+}
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+}
+
+.title_Subtitle{
+font-weight: 500;
+margin-left: 2em;
+line-height: -5px;
+}
+
+.title{
+    color: var(--White);
+    font-size: 16px;
+    position: relative;
+    left: 6rem;
+    bottom: 2.5rem;
+}
+
+.Subtitle{
+    font-weight: 900;
+    color: var(--Soft-Pink);
+    font-size: 13px;
+    position: relative;
+    left: 6rem;
+    bottom: 2.5rem;
+}
+
+.paragraf{
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    color: black;
+    text-align: start;
+    color: var(--White);
+    justify-content: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
