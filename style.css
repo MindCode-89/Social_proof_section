@@ -208,7 +208,7 @@ body {
   left: 1.5em;
   font-size: 25px;
   text-align: center;
-  bottom: 14em;
+  bottom: 2em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -217,7 +217,7 @@ body {
   text-align: center;
 }
 
-/************************ MOBILE MODEL ****************************/
+/************************ MOBILE MODEL IPHONE 14 PRO MAX ****************************/
 
 @media (min-width: 430px) and (max-width: 932px) {
   body {
@@ -352,3 +352,143 @@ padding: 25;
    
   }
 }
+
+
+/************************ MOBILE MODEL IPHONE 14 PRO MAX ****************************/
+
+
+
+@media (min-width: 375px) and (max-width: 667px) {
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+  
+  
+  
+    .container_destokp {
+      background-image: url(images/bg-pattern-bottom-desktop.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 22em;
+      height: 80em;
+      margin: 60px auto;
+    }
+  
+    .main_title {
+      color: var(--Very-Dark-Magenta);
+      font-size: 25px;
+      text-align: center;
+       margin-top: 4em; 
+       
+    }
+  
+    .main_paragraf {
+      color: var(--Dark-Grayish-Magenta);
+      font-size: 19px;
+      margin-top: 2em;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 2em;
+      font-weight: 500;
+    }
+  
+    .rated_1 {
+      position: relative;
+      width: 19.5em;
+      top: -1em;
+      left: 1em;
+    }
+  
+    .rated_2 {
+      position: relative;
+      width: 19.5em;
+      top: -7em;
+      left: 1em;
+    }
+  
+    .rated_3 {
+      position: relative;
+      width: 19.5em;
+      top: -14em;
+      left: 1em;
+    }
+    .avatares {
+      position: relative;
+      bottom: 55em;
+      flex-direction: column;
+    }
+  
+    .avatar_colton {
+      position: relative;
+      top: 3em;
+      right: 17em;
+      border-radius: 18px;
+      width: 322px;
+      height: 220px;
+      background-color: var(--Very-Dark-Magenta);
+      padding: 0;
+    }
+  
+    .avatar_irene {
+      position: relative;
+      right: 17em;
+      border-radius: 18px;
+      width: 322px;
+      height: 220px;
+      background-color: var(--Very-Dark-Magenta);
+      padding: 0;
+    }
+  
+    .avatar_anne {
+      position: relative;
+      right: 17em;
+      bottom: 4.5em;
+      border-radius: 18px;
+      width: 322px;
+      height: 220px;
+      background-color: var(--Very-Dark-Magenta);
+    }
+  
+    .paragraf {
+  padding: 25;
+      font-size: 16px;
+      color: var(--White);
+      margin-left: 0.6em;
+      margin-right: 0.6em;
+    }
+    .title {
+      color: var(--White);
+      position: relative;
+      left: 4.5em;
+      bottom: 1.8em;
+    }
+    .Subtitle {
+      color: var(--Soft-Pink);
+      position: relative;
+      left: 4.5em;
+      bottom: 1.8em;
+      font-size: 1.5em;
+    }
+  
+    .attribution {
+      color: black;
+      position: relative;
+      font-size: 22px;
+      text-align: center;
+      bottom: 2em
+      
+  
+    }
+    .attribution a {
+    color: black;
+      position: relative;
+      font-size: 22px;
+      text-align: center;
+  
+     
+    }
+  }
+  
