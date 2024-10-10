@@ -227,6 +227,11 @@ body {
     overflow: hidden;
   }
 
+  .main_container{
+    background-color: aqua;
+    width: 40em;
+    height: 80em;
+  }
 
 
   .container_destokp {
@@ -354,7 +359,7 @@ padding: 25;
 }
 
 
-/************************ MOBILE MODEL IPHONE 14 PRO MAX ****************************/
+/************************ MOBILE MODEL IPHONE 11 ****************************/
 
 
 
@@ -365,6 +370,11 @@ padding: 25;
       box-sizing: border-box;
       overflow: hidden;
     }
+
+    .main_container, .container_destokp {
+        padding: 0;
+        margin: 0;
+    }
   
   
   
@@ -373,15 +383,18 @@ padding: 25;
       background-size: cover;
       background-repeat: no-repeat;
       width: 22em;
-      height: 80em;
-      margin: 60px auto;
+      height: 120em;
+      margin: 0 auto;
+      padding: 0;
     }
   
     .main_title {
       color: var(--Very-Dark-Magenta);
       font-size: 25px;
       text-align: center;
-       margin-top: 4em; 
+       margin-top: 8em; 
+       padding: 0;
+       
        
     }
   
@@ -407,6 +420,7 @@ padding: 25;
       width: 19.5em;
       top: -7em;
       left: 1em;
+      padding: 0;
     }
   
     .rated_3 {
@@ -416,42 +430,59 @@ padding: 25;
       left: 1em;
     }
     .avatares {
-      position: relative;
-      bottom: 55em;
+    
       flex-direction: column;
+      position: relative;
+      gap: 0;
+      padding: 0;
+      margin-top: 27em;
+    
+    
     }
   
     .avatar_colton {
+        right: 19em;
       position: relative;
-      top: 3em;
-      right: 17em;
+      top: 1em;
       border-radius: 18px;
-      width: 322px;
+      width: 312px;
       height: 220px;
       background-color: var(--Very-Dark-Magenta);
       padding: 0;
     }
   
     .avatar_irene {
-      position: relative;
-      right: 17em;
-      border-radius: 18px;
-      width: 322px;
-      height: 220px;
-      background-color: var(--Very-Dark-Magenta);
-      padding: 0;
+        right: 19em;
+        position: relative;
+        top: -1em;
+        border-radius: 18px;
+        width: 312px;
+        height: 220px;
+        background-color: var(--Very-Dark-Magenta);
+        padding: 0;
+        margin-bottom: 10em;
     }
   
     .avatar_anne {
       position: relative;
-      right: 17em;
-      bottom: 4.5em;
+      right: 19em;
+      bottom: em;
       border-radius: 18px;
-      width: 322px;
+      width: 312px;
       height: 220px;
+      padding: 0;
       background-color: var(--Very-Dark-Magenta);
     }
   
+/* .avatar_colton, .avatar_irene, .avatar_anne{
+    position: relative;
+    right: 0em;
+    left: 0;
+    margin: 0;
+    padding: 0;
+} */
+
+
     .paragraf {
   padding: 25;
       font-size: 16px;
