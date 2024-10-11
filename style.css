@@ -22,21 +22,21 @@ body {
 
 /************************* DESK MODEL ************************/
 
-/* .main_section{
-  background-color: black;
-  width: 1430px;
-  height: 820px;
-} */
 
+.main_section{
+margin: 0;
+padding: 0;
+overflow: hidden;
 
+}
 .container_destokp {
-  border: 2px solid black;
+  border: 2px solid black; 
   background-image: url(images/bg-pattern-bottom-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1430px;
-  height: 820px;
-  margin: 2em auto;
+  height: auto;
+  margin: 3em auto;
 }
 
 .main_title {
@@ -68,7 +68,7 @@ body {
   border-radius: 8px;
 }
 
-.stars01{
+.stars01 {
   display: flex;
   position: relative;
   left: 7em;
@@ -77,12 +77,11 @@ body {
   align-items: center;
 }
 
-.text_01{
+.text_01 {
   position: relative;
   left: 1em;
   font-size: 20px;
 }
-
 
 .container_rated_2 {
   position: relative;
@@ -94,7 +93,7 @@ body {
   border-radius: 8px;
 }
 
-.stars02{
+.stars02 {
   display: flex;
   position: relative;
   left: 7em;
@@ -103,12 +102,11 @@ body {
   align-items: center;
 }
 
-.text_02{
+.text_02 {
   position: relative;
   left: 1em;
   font-size: 20px;
 }
-
 
 .container_rated_3 {
   position: relative;
@@ -120,7 +118,7 @@ body {
   border-radius: 8px;
 }
 
-.stars03{
+.stars03 {
   display: flex;
   position: relative;
   left: 7em;
@@ -129,20 +127,11 @@ body {
   align-items: center;
 }
 
-.text_03{
+.text_03 {
   position: relative;
   left: 1em;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 .rated_3 {
   position: relative;
@@ -156,7 +145,6 @@ body {
 }
 
 .avatares {
-
   display: flex;
   position: relative;
   bottom: 8em;
@@ -225,26 +213,6 @@ body {
   margin-top: 0.2em;
 }
 
-/* .stars01,
-.stars02,
-.stars03 {
-  top: 1em;
-  position: relative;
-  display: block;
-  text-align: center;
-  justify-content: center;
-}
-
-.text_01,
-.text_02,
-.text_03 {
-  position: relative;
-  display: block;
-  text-align: center;
-  justify-content: center;
-  font-size: 15px;
-} */
-
 .title {
   color: var(--White);
   position: relative;
@@ -273,29 +241,25 @@ body {
   text-align: center;
 }
 
-/************************ MOBILE MODEL IPHONE 14 PRO MAX ****************************/
+/************************ MOBILE MODEL IPHONE 11 ****************************/
 
-@media (min-width: 430px) and (max-width: 932px) {
+@media (min-width: 375px) and (max-width: 667px) {
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
-  }
-
-  .main_container {
-    background-color: aqua;
-    width: 40em;
-    height: 80em;
   }
 
   .container_destokp {
+    border: 2px solid black;
     background-image: url(images/bg-pattern-bottom-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 22em;
-    height: 80em;
-    margin: 60px auto;
+    width: 23em;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    
   }
 
   .main_title {
@@ -315,29 +279,87 @@ body {
     font-weight: 500;
   }
 
-  /* .rated_1 {
-    position: relative;
-    width: 19.5em;
-    top: -1em;
-    left: 1em;
+  .container_rated_1 {
+    position: relative; 
+    flex-direction: column;
+      left: 1em;
+    bottom: 1em;
+    background-color: var(--Light-Grayish-Magenta);
+    width: 20em;
+    height: 4em;
+    border-radius: 8px;
   }
 
-  .rated_2 {
+  .stars01 {
+    display: flex;
     position: relative;
-    width: 19.5em;
-    top: -7em;
-    left: 1em;
+    left: 1.5em;
+    top: 1.5em;
+    justify-content: start;
+    align-items: center;
   }
 
-  .rated_3 {
+  .text_01 {
+    
     position: relative;
-    width: 19.5em;
-    top: -14em;
     left: 1em;
-  } */
+    font-size: 16px;
+  }
+
+  .container_rated_2 {
+    position: relative;
+    left: 1em;
+    bottom: 0.5em;
+    background-color: var(--Light-Grayish-Magenta);
+    width: 20em;
+    height: 4em;
+    border-radius: 8px;
+  }
+
+  .stars02 {
+    display: flex;
+    position: relative;
+    left: 1.5em;
+    top: 1.5em;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .text_02 {
+    position: relative;
+    left: 1em;
+    font-size: 16px;
+  }
+
+  .container_rated_3 {
+    position: relative;
+    left: 1em;
+    bottom: 0.1em;
+    background-color: var(--Light-Grayish-Magenta);
+    width: 20em;
+    height: 4em;
+    border-radius: 8px;
+  }
+
+  .stars03 {
+    display: flex;
+    position: relative;
+    left: 1.5em;
+    top: 1.5em;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .text_03 {
+    position: relative;
+    left: 1em;
+    font-size: 16px;
+  }
+
   .avatares {
     position: relative;
-    bottom: 55em;
+    bottom: 2em;
+    left: 16.5rem;
     flex-direction: column;
   }
 
@@ -346,215 +368,54 @@ body {
     top: 3em;
     right: 17em;
     border-radius: 18px;
-    width: 322px;
-    height: 220px;
+    width: 20.3em;
+    height: 12.2em;
     background-color: var(--Very-Dark-Magenta);
     padding: 0;
+  }
+
+  .paragraf{
+    font-size: 15px;
+    position: relative;
+    bottom: 1em;
   }
 
   .avatar_irene {
     position: relative;
     right: 17em;
     border-radius: 18px;
-    width: 322px;
-    height: 220px;
+    width: 20.3em;
+    height: 12.2em;
     background-color: var(--Very-Dark-Magenta);
     padding: 0;
   }
 
   .avatar_anne {
     position: relative;
+    top: -4.5em;
     right: 17em;
-    bottom: 4.5em;
     border-radius: 18px;
-    width: 322px;
-    height: 220px;
+    width: 20.3em;
+    height: 12.2em;
     background-color: var(--Very-Dark-Magenta);
-  }
-
-  .paragraf {
-    padding: 25;
-    font-size: 16px;
-    color: var(--White);
-    margin-left: 0.6em;
-    margin-right: 0.6em;
-  }
-  .title {
-    color: var(--White);
-    position: relative;
-    left: 4.5em;
-    bottom: 1.8em;
-  }
-  .Subtitle {
-    color: var(--Soft-Pink);
-    position: relative;
-    left: 4.5em;
-    bottom: 1.8em;
-    font-size: 1.5em;
-  }
-
-  .attribution {
-    color: black;
-    position: relative;
-    font-size: 22px;
-    text-align: center;
-    bottom: 2em;
-  }
-  .attribution a {
-    color: black;
-    position: relative;
-    font-size: 22px;
-    text-align: center;
-  }
-}
-
-/************************ MOBILE MODEL IPHONE 11 ****************************/
-
-@media (min-width: 375px) and (max-width: 667px) {
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-  }
-
-  .main_container,
-  .container_destokp {
-    padding: 0;
-    margin: 0;
-  }
-
-  .container_destokp {
-    background-image: url(images/bg-pattern-bottom-desktop.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22em;
-    height: 120em;
-    margin: 0 auto;
     padding: 0;
   }
 
-  .main_title {
-    color: var(--Very-Dark-Magenta);
-    font-size: 25px;
-    text-align: center;
-    margin-top: 8em;
-    padding: 0;
-  }
-
-  .main_paragraf {
-    color: var(--Dark-Grayish-Magenta);
-    font-size: 19px;
-    margin-top: 2em;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 2em;
-    font-weight: 500;
-  }
-
-  /* .rated_1 {
-    position: relative;
-    width: 19.5em;
-    top: -1em;
-    left: 1em;
-  }
-
-  .rated_2 {
-    position: relative;
-    width: 19.5em;
-    top: -7em;
-    left: 1em;
-    padding: 0;
-  }
-
-  .rated_3 {
-    position: relative;
-    width: 19.5em;
-    top: -14em;
-    left: 1em;
-  } */
-  .avatares {
+  footer, .attribution, .attribution a {
+    display: block;
     flex-direction: column;
-    position: relative;
-    gap: 0;
-    padding: 0;
-    /* margin-top: 27em; */
   }
-
-  .avatar_colton {
-    right: 19em;
-    position: relative;
-    top: 1em;
-    border-radius: 18px;
-    width: 312px;
-    height: 220px;
-    background-color: var(--Very-Dark-Magenta);
-    padding: 0;
-  }
-
-  .avatar_irene {
-    right: 19em;
-    position: relative;
-    top: -1em;
-    border-radius: 18px;
-    width: 312px;
-    height: 220px;
-    background-color: var(--Very-Dark-Magenta);
-    padding: 0;
-    margin-bottom: 10em;
-  }
-
-  .avatar_anne {
-    position: relative;
-    right: 19em;
-    bottom: em;
-    border-radius: 18px;
-    width: 312px;
-    height: 220px;
-    padding: 0;
-    background-color: var(--Very-Dark-Magenta);
-  }
-
-  /* .avatar_colton, .avatar_irene, .avatar_anne{
-    position: relative;
-    right: 0em;
-    left: 0;
-    margin: 0;
-    padding: 0;
-} */
-
-  .paragraf {
-    padding: 25;
-    font-size: 16px;
-    color: var(--White);
-    margin-left: 0.6em;
-    margin-right: 0.6em;
-  }
-  .title {
-    color: var(--White);
-    position: relative;
-    left: 4.5em;
-    bottom: 1.8em;
-  }
-  .Subtitle {
-    color: var(--Soft-Pink);
-    position: relative;
-    left: 4.5em;
-    bottom: 1.8em;
-    font-size: 1.5em;
-  }
-
   .attribution {
+  
     color: black;
     position: relative;
-    font-size: 22px;
-    text-align: center;
-    bottom: 2em;
+    font-size: 16px;
+    top: 2em;
   }
   .attribution a {
     color: black;
     position: relative;
-    font-size: 22px;
-    text-align: center;
+    font-size: 16px;
+   
   }
 }
